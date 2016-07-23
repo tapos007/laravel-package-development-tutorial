@@ -1,0 +1,19 @@
+{
+    "name": "websanova/demo",
+    "description": "Demo package for Websanova article.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tapos",
+            "email": "tapos.aa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Websanova\\Demo\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
